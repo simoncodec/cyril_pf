@@ -105,9 +105,17 @@ a:hover::after {
     margin: 0 auto;
     background: #000101;
     transition: 1s cubic-bezier(0.77,0,0.18,1);
-    transform-origin: left;
+    transform-origin: center;
     transition-delay: 0.65s;
+    opacity: 0;
+    transform: scaleX(0);
 }
+
+.line-wrapper.is-inview .line {
+    opacity: 1;
+    transform: scaleX(1);
+}
+
 
 .wrapper {
     perspective: 900px;
@@ -211,6 +219,7 @@ header h2 {
 
 .skills .appear {
     text-align: center;
+    transition-delay: 0.6s;
 }
 
 .skills p {
