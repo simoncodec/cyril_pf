@@ -190,4 +190,80 @@ header h2 {
     letter-spacing: 4px;
     color: #fefefe;
     display: inline-block;
+    padding: 0 12px 12px;
+}
+
+.portfolio {
+    margin: 200px 0;
+}
+
+.projects-container {
+    margin-top: 100px;
+}
+
+.project {
+    position: relative;
+    width: 60vw;
+    max-width: 600px;
+    margin: 50px 5vw;
+}
+
+#p2 {
+    margin: 0 6vw 0 auto;
+}
+
+#p3 {
+    margin-left: 8vw;
+}
+
+.project img {
+    transition: 0.4s ease ease-out;
+    width: 100%;
+}
+
+.project:hover img {
+    filter: brightness(20%);
+}
+
+.project:hover .projects-infos {
+    opacity: 1;
+    transform: translate(0, -50%);
+}
+
+.projects-infos {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50px, -50%);
+    margin-left: 8VW;
+    transition: 0.4s ease-out;
+}
+
+.projects-infos a {
+    font-size: calc(1rem + 3vw);
+}
+
+.projects-infos p {
+    font-size: 3rem;
+    margin-top: 1.5vw;
+    color: #fefefe;
+}
+
+footer {
+    margin: 150px 0 120px;
+}
+
+footer p {
+    font-size: calc(1rem + 2vw);
+    margin: 25px;
+    text-align: center;
+}
+
+footer a {
+    font-family: "font-bold" ,serif;
+    color: #000101;
+    font-size: calc(1rem + 2vw);
+}
+
+.img2 {
+    background: url(./assets/img/bill-gates-2.jpg) center/cover;
 }
