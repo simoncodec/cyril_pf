@@ -139,12 +139,24 @@ header{
     justify-content: space-between;
 }
 
+#h1-wrapper {
+    transition-delay: 0.3s;
+}
+
 h1 {
     font-size: calc(2rem + 8vw);
     margin-top: 70px;
     font-family: "font-bold" ,serif;
     letter-spacing: 6px;
     color: #fefefe;
+}
+
+#h2-1 {
+    transition-delay: 0.9s;
+}
+
+#h2-2 {
+    transition-delay: 1.2s;
 }
 
 header h2 {
